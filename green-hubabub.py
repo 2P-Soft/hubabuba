@@ -1,8 +1,9 @@
+import arktika
 def hiza(health):
-         if (health < 0):
-                  print("Собака Алишера мертва")
-         else :
-                  print("Еще жива")
+     if (health < 0):
+           print("Собака Алишера мертва")
+     else :
+           print("Еще жива")
 
 
 print("ОС Зеленая хуба-буба")
@@ -54,8 +55,12 @@ if (choose == "5"):
                   print("Добро пожаловать в 2-Tube, ", name, "Узнайте подробнее о продуктах 2`C на сайте http://openvk.su/twop")
 
 if (choose == "6"):
-    mrname = input()
-    print("Привет,",mrname)
+    at = input()
+    sad = input()
+    kerk = input()
+    sup = int(at) + int(sad) + int(kerk)
+    print(sup)
+    
                   
 
 
@@ -63,5 +68,8 @@ if (choose == "6"):
          
     
         
+
+                
+
 
                 
