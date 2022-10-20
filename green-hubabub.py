@@ -38,11 +38,7 @@ if (choose == "3"):
     if ("@" in pochta and "@" not in login):
         print("Успешная регистрация в ПОЧТА И ТОЧКА")
 if (choose == "4"):
-         print("*" * 5 , "Добро пожаловать! В 2-Арктика от 2`с, Welcome! To 2-Arctica by 2`S", "*" * 5  )
-         proezd = input(":")
-         if (proezd == "sim"):
-                  healthy = input()
-                  hiza(int(healthy))
+         arktika.arktikastart()
 if (choose == "5"):
          name = input("ИМЯ")
          print("Возраст")
@@ -55,11 +51,9 @@ if (choose == "5"):
                   print("Добро пожаловать в 2-Tube, ", name, "Узнайте подробнее о продуктах 2`C на сайте http://openvk.su/twop")
 
 if (choose == "6"):
-    at = input()
-    sad = input()
-    kerk = input()
-    sup = int(at) + int(sad) + int(kerk)
-    print(sup)
+    at = int(input())
+    print(at*at*at)
+    print(6*at*at)
     
                   
 
